@@ -1,0 +1,3 @@
+display_message("Okay now we'll pretend you won the city level and we'll load the boss level! Ok, ok, OK!.");
+load_map("boss_level", coord[0, 2, 0], NORTH);
+display_message("Yay! You won! Don't worry, it will actually work one day!")

@@ -1,0 +1,3 @@
+load_map("Crash site", coord[0, 1, 0], NORTH);
+display_message("Wow, what a crash! I'm glad I got out ok... my ship doesn't even look too badly damaged... I wonder what happened back there?");
+start_dialogue("Ludicrous Repeater")

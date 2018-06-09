@@ -1,0 +1,2 @@
+load_map("Ship Interior", coord[0, -8, 8], SOUTH);
+display_message("My ship... my precious... I seriously Gollum out over it. I love this thing. Nothing to do here right now, though.")

@@ -1,0 +1,2 @@
+display_message("Congratulations! By clicking this door we'll pretend you solved this screen, and we'll go to the next level, ok? Okay. OK!.");
+load_map("city", coord[0, 2, 0], NORTH)
