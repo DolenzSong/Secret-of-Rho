@@ -1,0 +1,5 @@
+set_entity_property(self, "crankiness_level", 0);
+set_entity_property(self, "dialogue_at_cranky_0", "This is level 0");
+set_entity_property(self, "dialogue_at_cranky_1", "this is level 1");
+set_entity_property(self, "dialogue_at_cranky_2", "this is level 2");
+set_entity_property(self, "dialogue_at_cranky_3", "this is level 3")

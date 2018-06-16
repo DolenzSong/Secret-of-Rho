@@ -1,0 +1,1 @@
+load_map("Ship Interior", coord[0, -6, 0], SOUTH)
