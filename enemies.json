@@ -17,6 +17,12 @@
           "item_name": "Red Goo"
         }
       ]
+    },
+    {
+      "name": "Evil Relin",
+      "model": "Relin",
+      "loot": [
+      ]
     }
   ]
 }
