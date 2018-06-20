@@ -1,0 +1,2 @@
+play_animation(entity["margaret_hologram"], "flicker_small");
+start_dialogue("red_light_flasher")
