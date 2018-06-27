@@ -1,3 +1,2 @@
-load_map("Crash site", coord[1, 1, 1], WEST);
-display_message("Sigh... the world is so... world.");
-start_dialogue("Ludicrous Repeater")
+load_map("Crash Site", coord[1, 1, 1], WEST);
+display_message("Sigh... the world is so... world.")

@@ -1,2 +1,2 @@
-load_map("Crash Site", coord[0, 1, 1], NORTH);
+load_map("Crash Site", coord[0, 0, 1], SOUTH);
 display_message("Wow, what a crash! I'm glad I got out ok... my ship doesn't even look too badly damaged... I wonder what happened back there?")
