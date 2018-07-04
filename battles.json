@@ -2,14 +2,17 @@
   "battles": [
     {
       "name": "fight_relin",
-      "map": "Crash Site",
+      "map": "grass_battle",
       "enemies": [
-        {
-          "name": "Evil Relin",
-          "min_count": 1,
-          "max_count": 1
-        }
       ]
+    },
+    {
+      "name": "fight_whoopsy",
+      "map": "enemy_holding_map"
+    },
+    {
+      "name": "fight_candi",
+      "map": "enemy_holding_map"
     }
   ]
 }

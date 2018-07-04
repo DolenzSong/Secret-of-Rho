@@ -1,9 +1,12 @@
 {
   "enemies": [
     {
-      "name": "Evil Relin",
+      "name": "Battle Relin",
       "model": "Relin",
       "loot": [
+        {
+          "item_name": ""Relin" Cog Cart"
+        }
       ]
     }
   ]
