@@ -2,17 +2,36 @@
   "battles": [
     {
       "name": "fight_relin",
-      "map": "grass_battle",
+      "map": "enemy_holding_map",
       "enemies": [
+        {
+          "name": "fight_mode_relin",
+          "min_count": 1,
+          "max_count": 1
+        }
       ]
     },
     {
       "name": "fight_whoopsy",
-      "map": "enemy_holding_map"
+      "map": "enemy_holding_map",
+      "enemies": [
+        {
+          "name": "fight_mode_whoopsy",
+          "min_count": 1,
+          "max_count": 1
+        }
+      ]
     },
     {
       "name": "fight_candi",
-      "map": "enemy_holding_map"
+      "map": "enemy_holding_map",
+      "enemies": [
+        {
+          "name": "fight_mode_candi",
+          "min_count": 1,
+          "max_count": 1
+        }
+      ]
     }
   ]
 }

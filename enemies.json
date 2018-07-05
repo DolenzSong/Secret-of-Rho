@@ -1,12 +1,21 @@
 {
   "enemies": [
     {
-      "name": "Battle Relin",
+      "name": "fight_mode_relin",
       "model": "Relin",
       "loot": [
-        {
-          "item_name": ""Relin" Cog Cart"
-        }
+      ]
+    },
+    {
+      "name": "fight_mode_whoopsy",
+      "model": "Whoopsy",
+      "loot": [
+      ]
+    },
+    {
+      "name": "fight_mode_candi",
+      "model": "Candi",
+      "loot": [
       ]
     }
   ]

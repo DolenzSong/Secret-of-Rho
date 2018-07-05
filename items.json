@@ -1,26 +1,26 @@
 {
   "items": [
     {
-      "name": "\"Whoopsy\" Cog Cart",
-      "description": "A Cognate Cartridge with the \"Whoopsy\" personality.",
+      "name": "Cog Cart - Whoopsy",
+      "description": "A Cognate Cartridge with the Whoopsy personality.",
       "image": "Cartridge-Whoopsy.png",
       "usable": false
     },
     {
-      "name": "\"Relin\" Cog Cart",
-      "description": "A Cognate Cartridge with the \"Relin\" personality.",
+      "name": "Cog Cart - Relin",
+      "description": "A Cognate Cartridge with the\"Relin personality.",
       "image": "Cartridge-Relin.png",
       "usable": false
     },
     {
-      "name": "\"Candi\" Cog Cart",
-      "description": "A Cognate Cartridge with the \"Candi\" personality.",
+      "name": "Cog Cart - Candi",
+      "description": "A Cognate Cartridge with the Candi personality.",
       "image": "Cartridge-Candi.png",
       "usable": false
     },
     {
-      "name": "\"Rho\" Cog Cart",
-      "description": "A Cognate Cartridge with the \"Rho\" personality.",
+      "name": "Cog Cart - Rho",
+      "description": "A Cognate Cartridge with the Rho personality.",
       "image": "Cartridge-Rho.png",
       "usable": false
     }
