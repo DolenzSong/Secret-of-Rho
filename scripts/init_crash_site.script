@@ -1,4 +1,5 @@
 play_animation(entity["margaret_hologram"], "flicker_small");
 start_dialogue("red_light_flasher");
 if global.property["returning_from_battle"] == true then
+  start_dialogue("shutdown_current_cog")
 end
