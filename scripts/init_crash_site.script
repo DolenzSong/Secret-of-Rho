@@ -1,9 +1,9 @@
 play_animation(entity["margaret_hologram"], "flicker_small");
 start_dialogue("red_light_flasher");
-if global.property["current_cognate"] == "none" then
-  display_message("No current cognate yah")
-else
-  if global.property["current_cognate"] == "relin" then
-    display_message("You defeated Relin")
-  end
+if global.property["current_cognate"] == "relin" then
+  remove_entity(entity["relin"]);
+  put_entity("empty_relin", "relin_defeat_tile");
+  put_player("julie_win_versus_relin_tile", SOUTH);
+  give_item("Cog Cart - Relin");
+  display_message("Defeating Relin, you pull the Cog Cart from out of the cognate's head. Now Relin is basically a paperweight. You keep the cartridge with you.")
 end
