@@ -1,6 +1,10 @@
-remove_entity(entity["placeholder_Julie"]);
-play_animation(entity["margaret_hologram"], "idle");
-start_dialogue("red_light_flasher");
-if global.property["returning_from_battle"] == true then
-  start_dialogue("shutdown_current_cog")
-end
+if global.property["cogs_already_initialized"] == false then
+  start_dialogue("crash_site_init_cogs");
+  set_global_property("cogs_already_initialized", true)
+end;
+if global.property["battle_underway"] == true then
+  start_dialogue("remove_current_cog_cart");
+  set_global_property("battle_underway", false)
+end;
+remove_entity(entity["placeholder_julie"]);
+play_animation(entity["margaret_hologram"], "idle")
